@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cờ Caro</title>
 </head>
+
 <body>
     <button id="button">Start</button>
-    <div id="game-board" >
+    <div id="game-board">
     </div>
     <script src="./caroGame.js"></script>
+    <style>
+        #game-board {
+            position: relative;
+            margin-top: 50px;
+        }
+
+        .cell {
+            border: solid 1px blue;
+            text-align: center;
+            font-size: 20pt;
+            cursor: pointer;
+            color: red;
+        }
+    </style>
 </body>
+
 </html>
